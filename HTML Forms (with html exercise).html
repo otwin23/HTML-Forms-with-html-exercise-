@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Forms (with html exercise)</title>
+</head>
+<body>
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Enter First Name"><br><br>
+  <label for="lname">Middle name:</label><br>
+  <input type="text" id="lname" name="lname" value="Enter Middle Name"><br><br>
+  <label for="famname">Family name:</label><br>
+  <input type="text" id="famname" name="famname" value="Enter Family Name"><br>
+  <p>Gender</p>
+  <input type="radio" id="Gender" name="Gender" value="Male">
+  <label for="Gender">Male</label><br>
+  <input type="radio" id="Gender" name="Gender" value="Female">
+  <label for="Gender">Female</label><br><br>
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="webdev">Home Address:</label>
+  <textarea id="webdev" name="webdev" rows="2" cols="50"> 
+  </textarea><br>
+  <p>Hobbies</p>
+  <input type="checkbox" id="1" name="1" value="Computer games">
+  <label for="1"> Computer games</label><br>
+  <input type="checkbox" id="2" name="2" value="Playing music instruments">
+  <label for="2"> Playing music instruments</label><br>
+  <input type="checkbox" id="3" name="3" value="Cooking">
+  <label for="3"> Cooking</label><br>
+  <input type="checkbox" id="4" name="4" value="Drawing">
+  <label for="4"> Drawing</label><br><br>
+  <p>Favorite Color</p>
+  <select>
+        <option value="Y">Yellow</option>
+        <option value="Y-O">Yellow-Orange</option>
+        <option value="O">Orange</option>
+        <option value="R-O">Red-Orange</option>
+        <option value="R">Red</option>
+        <option value="R-V">Red-Violet</option>
+        <option value="V">Violet</option>
+        <option value="B-V">Blue-Violet</option>
+        <option value="B">Blue</option>
+        <option value="B-G">Blue-Green</option>
+        <option value="G">Green</option>
+        <option value="Y-G">Yellow-Green</option>
+    </select>
+  <br><br>
+  <label for="webdev">Say something about yourself:</label>
+  <textarea id="webdev" name="webdev" rows="4" cols="50"> 
+  </textarea><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form>
+</body>
+</html>
